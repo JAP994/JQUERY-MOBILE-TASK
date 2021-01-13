@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery-Mobile</title>
+    <link rel="stylesheet" href="jqm/jquery.mobile-1.4.5.css">
+    <link rel="stylesheet" href="jqm/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="jqm/jquery.mobile.external-png-1.4.5.css">
+    <link rel="stylesheet" href="jqm/jquery.mobile.external-png-1.4.5.min.css">
+    <link rel="stylesheet" href="jqm/jquery.mobile.icons-1.4.5.css">
+    <link rel="stylesheet" href="jqm/jquery.mobile.icons-1.4.5.min.css">
+    <link rel="stylesheet" href="jqm/jquery.mobile.inline-png-1.4.5.css">
+    <link rel="stylesheet" href="jqm/jquery.mobile.inline-png-1.4.5.min.css">
+    <link rel="stylesheet" href="jqm/jquery.mobile.inline-svg-1.4.5.css">
+    <link rel="stylesheet" href="jqm/jquery.mobile.inline-svg-1.4.5.min.css">
+    <link rel="stylesheet" href="jqm/jquery.mobile.structure-1.4.5.css">
+    <link rel="stylesheet" href="jqm/jquery.mobile.structure-1.4.5.min.css">
+    <link rel="stylesheet" href="jqm/jquery.mobile.theme-1.4.5.css">
+    <link rel="stylesheet" href="jqm/jquery.mobile.theme-1.4.5.min.css">
+
+    <script src="jqm/jquery.js"></script>
+    <script src="jqm/jquery.mobile-1.4.5.js"></script>
+    <script src="jqm/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+    <div data-role="page" data-theme="a">
+
+        <header data-role="header">
+            <h1>Favoritos</h1>
+            <div data-role="navbar">
+                <ul>
+                    <li>
+                        <a href="index.html" rel="external"  data-icon="home" data-theme="b">Inicio</a>
+                    </li>
+
+                    <li>
+                        <a href="favoritos.html" rel="external"  class="ui-btn-active" data-icon="star" data-theme="b">Favoritos</a>
+                    </li>
+
+                    <li>
+                        <a href="contacto.html" rel="external"  data-icon="star" data-theme="b">Contactos</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <div data-role="main">
+            <ul data-role="listview" data-inset="true" data-autodividers="true" data-filter="true">
+                <li><a href="#1"><img src="jqm/images/aplle ipad.jpg" width="100" height="100"/><h3>Apple iPad</h3>
+              <p>Apple anunció el iPad en 2010, y desde entonces se ha transformado lentamente en un sustituto de la computadora para muchos (incluidos nosotros). Pero lo que le ha permitido ganarse su lugar en la lista no es la transformación gradual de un dispositivo que muchos críticos consideraron simplemente un iPhone grande cuando llegó al mercado.</p></a></li> 
+                <li><a href="#2"><img src="jqm/images/iphone4.jpg" width="100" height="100"/><h3>IPhone 4</h3>
+              <p>El iPhone 4 de Apple no solo presentaba posiblemente el mejor diseño de iPhone que Apple haya tenido jamás, sino que fue el primer iPhone en contar con una cámara frontal para justificar el lanzamiento de FaceTime, el servicio de video chat de Apple.</p></a></li>
+                <li><a href="#3"><img src="jqm/images/Samsung Galaxy Note.jpg" width="100" height="100"/><h3>Samsung Galaxy Note</h3>
+              <p>En 2011 los teléfonos grandes no estaban de moda; de hecho, se les temía un poco. El Galaxy Note original de Samsung debutó ese año y tenía una pantalla Super AMOLED de 5.3 pulgadas. Fue el primer phablet que conquistó el mercado, y los leales a la línea Note siguen siendo grandes admiradores hasta el día de hoy. Es la razón por la que amamos tanto el Note 10+ y por qué los fanáticos se han mantenido fieles a la marca.</p></a></li>
+                <li><a href="#3"><img src="jqm/images/Microsoft Surface.jpg" width="100" height="100"/><h3>Microsoft Surface</h3>
+              <p>Microsoft siempre ha creado software, pero no fue hasta 2012 que construyó su primera PC, la conocida y querida Surface. Ese año, Microsoft presentó su primera pieza de hardware a principios del verano, pero no envió la primera a las tiendas hasta mediados de otoño. Técnicamente se llamaba Surface RT y ejecutaba Windows RT, pero tenía el mismo espíritu de diseño que Surface Pro 7 y Pro X actuales.</p></a></li> 
+              <li><a href="#3"><img src="jqm/images/Pebble Smart Watch.jpg" width="100" height="100"/><h3>Pebble Smart Watch</h3>
+                <p>El Apple Watch de hoy podría no existir si no hubiera sido por el Pebble. El primer reloj Pebble hizo su debut en 2012 en el sitio web de crowdfunding Kickstarter. La campaña recaudó $10.3 millones, lo que demostró que había una demanda latente para una computadora de muñeca que permitiera a sus usuarios ver e interactuar con las notificaciones de sus teléfonos inteligentes, controlar la música o ver las estadísticas de estado físico.</p></a></li>
+                    
+            </ul>
+
+        </div>
+
+        <div data-role="footer">
+            <div class="ui-content">
+                <small>&copy; JQuery Mobile</small>
+                <small>Jonathan Sánchez</small>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

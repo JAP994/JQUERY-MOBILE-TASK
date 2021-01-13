@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery-Mobile</title>
+    <link rel="stylesheet" href="jqm/jquery.mobile-1.4.5.css">
+    <link rel="stylesheet" href="jqm/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="jqm/jquery.mobile.external-png-1.4.5.css">
+    <link rel="stylesheet" href="jqm/jquery.mobile.external-png-1.4.5.min.css">
+    <link rel="stylesheet" href="jqm/jquery.mobile.icons-1.4.5.css">
+    <link rel="stylesheet" href="jqm/jquery.mobile.icons-1.4.5.min.css">
+    <link rel="stylesheet" href="jqm/jquery.mobile.inline-png-1.4.5.css">
+    <link rel="stylesheet" href="jqm/jquery.mobile.inline-png-1.4.5.min.css">
+    <link rel="stylesheet" href="jqm/jquery.mobile.inline-svg-1.4.5.css">
+    <link rel="stylesheet" href="jqm/jquery.mobile.inline-svg-1.4.5.min.css">
+    <link rel="stylesheet" href="jqm/jquery.mobile.structure-1.4.5.css">
+    <link rel="stylesheet" href="jqm/jquery.mobile.structure-1.4.5.min.css">
+    <link rel="stylesheet" href="jqm/jquery.mobile.theme-1.4.5.css">
+    <link rel="stylesheet" href="jqm/jquery.mobile.theme-1.4.5.min.css">
+
+    <script src="jqm/jquery.js"></script>
+    <script src="jqm/jquery.mobile-1.4.5.js"></script>
+    <script src="jqm/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+    <div data-role="page" data-theme="a">
+        <header data-role="header">
+            <h1>Contactos</h1>
+            <div data-role="navbar">
+                <ul>
+                    <li>
+                        <a href="index.html" rel="external" data-icon="home" data-theme="b">Inicio</a>
+                    </li>
+
+                    <li>
+                        <a href="favoritos.html" rel="external" data-icon="star" data-theme="b">Favoritos</a>
+                    </li>
+
+                    <li>
+                        <a href="contacto.html" rel="external" class="ui-btn-active" data-icon="phone"
+                            data-theme="b">Contactos</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <div data-role="main">
+            <div class="ui-content" style="text-align:center;">
+                <h3>Contáctate con nosotros</h3>
+            </div>
+            <ul data-role="listview">
+                <li>
+                    <img src="jqm/images/persona1.jpg" />
+                    <h3>Carla Perez</h3>
+                    <p>Diseñadora</p>
+                </li>
+
+                <li>
+                    <img src="jqm/images/persona2.jpg" />
+                    <h3>Jonathan Sánchez</h3>
+                    <p>Programador</p>
+                </li>
+                <li>
+                    <img src="jqm/images/persona3.jpeg" />
+                    <h3>Mishelle Tacuri</h3>
+                    <p>Contadora</p>
+                </li>
+            </ul>
+            <div class="ui-content" style="text-align:center;">
+                <h3>Informanos tus dudas</h3>
+            </div>
+            <div class="ui-content">
+                <div data-role="fieldcontain">
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" name="email" id="email" value="" />
+                    <label for="password">Contraseña</label>
+                    <input type="password" name="password" id="password" value="" />
+                    <label for="age">Edad</label>
+                    <input type="number" name="age" id="age" value="" />
+                    <label for="asunto">Asunto</label>
+                    <input type="text" name="asunto" id="asunto" value="" />
+                    <label for="telephone">Teléfono</label>
+                    <input type="tel" name="telephone" id="telephone" value="" />
+                </div>
+                <a href="contacto.html" rel="external" data-role="button" data-inline="true" data-theme="b">Guardar</a>
+            </div>
+        </div>
+
+        <div data-role="footer">
+            <div class="ui-content">
+                <small>&copy; JQuery Mobile</small>
+                <small>Jonathan Sánchez</small>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
