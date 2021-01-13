@@ -1,9 +1,12 @@
 # JQUERY-MOBILE-TASK
 Aplicación demostrativa con elementos de jQuery Mobile
 
-1.- https://jquerymobile.com/download/ nos dirigimos a la pagina y descargamos el .zip de la ultima version estable
-2.- https://jquery.com/download/ descargarmos la libreria jquery par auqe nos funcione jquery mobile
-3.- Creamos un archivo punto html para empezar a incluir los archivos correspondiente y crear la aplicacion
+1.- https://jquerymobile.com/download/ nos dirigimos a la pagina y descargamos el .zip de la ultima version estable.
+
+2.- https://jquery.com/download/ descargarmos la libreria jquery par auqe nos funcione jquery mobile.
+
+3.- Creamos un archivo punto html para empezar a incluir los archivos correspondiente y crear la aplicacion.
+
 4.- jquery mobile trabaja con arquitectura de roles.
 
 DESCRIPCIÓN
